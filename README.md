@@ -33,9 +33,12 @@ This repository contains strategic analysis and documentation for AI companies t
 ## Repository Structure
 
 ```
-/gemini/          - Google Cloud Gemini strategy documents (4 PDFs)
-/sierra/          - Sierra AI analysis and revenue research (7 files)
-README.md         - This overview and comparative analysis
+/gemini/                    - Google Cloud Gemini strategy documents (4 PDFs)
+/sierra/                    - Sierra AI analysis and revenue research
+  ├── analysis/             - Markdown analysis and documentation
+  ├── reports/              - PDF reports and executive summaries
+  └── scripts/              - Python analysis and data processing scripts
+README.md                   - This overview and comparative analysis
 ```
 
 ## Contents
@@ -49,12 +52,18 @@ README.md         - This overview and comparative analysis
 | `gemini_gtm_sa_2-pager_report.pdf` | SA organization execution guide with 12-month roadmap | Sales execution |
 
 ### Sierra Directory
-| Document | Description | Focus |
-|----------|-------------|-------|
-| `Sierra_AI_Analysis_CP_Style_v1.md` | Comprehensive analysis of Sierra's $100M ARR achievement | Revenue forensics |
-| `Sierra_100M_ARR_Analysis.pdf` | Executive summary of key findings | Business strategy |
-| `Sierra_AI_Forensic_Financial_Analysis_100M_ARR.py` | Python analysis script with data processing | Quantitative analysis |
-| Additional analysis documents | Supporting research and detailed breakdowns | Market research |
+| Directory/Document | Description | Focus |
+|--------------------|-------------|-------|
+| **analysis/** | Markdown analysis and documentation | |
+| `├── Sierra_AI_Analysis_CP_Style_v1.md` | Comprehensive analysis of Sierra's $100M ARR achievement | Revenue forensics |
+| **reports/** | PDF reports and executive summaries | |
+| `├── Sierra_100M_ARR_Analysis.pdf` | Executive summary of key findings | Business strategy |
+| `├── Sierra_AI_Deconstructing_a_Milestone.pdf` | Detailed milestone analysis | Strategic breakdown |
+| `├── Sierra_AI_Forensic_Financial_Analysis_100M_ARR_December_2025.pdf` | Updated financial analysis | Revenue analysis |
+| `├── Sierra.ai $100M ARR_ Forensic Investigation Report.pdf` | Complete forensic investigation | Financial forensics |
+| **scripts/** | Python analysis and data processing | |
+| `├── Sierra_AI_Forensic_Financial_Analysis_100M_ARR.py` | Primary analysis script with data processing | Quantitative analysis |
+| `├── sierra_analysis.py` | Supporting analysis utilities | Data processing |
 
 ---
 
